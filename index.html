@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assunção Doces Gourmet</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <div class="logo">
+    Assunção Doces Gourmet
+</div>
+        </div>
+
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- BANNER -->
+    <header class="banner">
+
+        <h1>Doces artesanais feitos para transformar momentos especiais.</h1>
+
+        <p>
+            Picolés Gourmet • Sobremesas • Doces Artesanais
+        </p>
+
+        <div class="botoes">
+            <button>Ver Produtos</button>
+            <button>Pedir pelo WhatsApp</button>
+        </div>
+
+    </header>
+
+    <!-- PRODUTOS -->
+
+    <section id="produtos">
+
+        <h2>Nossos Produtos</h2>
+
+        <div id="lista-produtos">
+
+            <!-- Os produtos aparecerão aqui -->
+
+        </div>
+
+    </section>
+    <!-- CARRINHO -->
+
+<section id="carrinho">
+
+    <h2>🛒 Meu Pedido</h2>
+
+    <div id="itens-carrinho">
+
+        <p class="carrinho-vazio">
+            Seu carrinho está vazio.
+        </p>
+
+    </div>
+
+    <div class="total">
+
+        <strong>Total:</strong>
+
+        <span>R$ 0,00</span>
+
+    </div><div id="dados-cliente">
+
+    <h3>Seus Dados</h3>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <label for="telefone">Telefone</label>
+    <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+
+    <h3>Forma de recebimento</h3>
+
+    <div class="recebimento">
+        <input type="radio" id="retirada" name="recebimento" checked>
+        <label for="retirada">Retirada no local</label>
+    </div>
+
+    <p class="info-retirada">
+        Entraremos em contato para combinar o horário da retirada.
+    </p>
+
+    <h3>Forma de pagamento</h3>
+
+    <div class="pagamento">
+
+        <label><input type="radio" name="pagamento" value="Pix" checked> Pix</label>
+
+        <label><input type="radio" name="pagamento" value="Dinheiro"> Dinheiro</label>
+
+        <label><input type="radio" name="pagamento" value="Cartão"> Cartão</label>
+
+    </div>
+
+    <label for="observacao">Observações</label>
+
+    <textarea id="observacao"
+        placeholder="Alguma observação sobre o pedido?"></textarea>
+
+    <button id="finalizar">
+        📲 Enviar Pedido
+    </button>
+
+</div>
+
+    </button>
+
+</section>
+
+    <!-- RODAPÉ -->
+
+    <footer id="contato">
+
+        <h3>Assunção Doces Gourmet</h3>
+
+        <p>Sertãozinho - SP</p>
+
+        <p>WhatsApp</p>
+
+        <p>Instagram</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
